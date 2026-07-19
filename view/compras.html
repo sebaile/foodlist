@@ -1,0 +1,56 @@
+<h2>Lista de Compras</h2>
+<ul>
+  <li>Tomates (1 kg) - $1.290</li>
+  <li>Queso Laminado (200 g) - $2.390</li>
+  <li>Leche Descremada (1 L) - $990</li>
+</ul>
+<p><strong>Total: $4.670</strong></p>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodList - Lista de Compras</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #fff; }
+    header { background: #003366; color: white; padding: 15px 20px; font-size: 18px; font-weight: bold; }
+    .container { padding: 20px; }
+    .item { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid #ddd; }
+    .item img { width: 40px; height: 40px; object-fit: contain; }
+    .item-name { flex: 1; margin-left: 10px; text-align: left; }
+    .item-amount { font-weight: bold; color: #333; }
+    .supermercado { font-size: 14px; color: #666; margin-bottom: 10px; }
+    .total { text-align: right; font-size: 18px; margin-top: 20px; font-weight: bold; color: #003366; }
+  </style>
+</head>
+<body>
+
+  <header>Lista de Compras</header>
+
+  <div class="container">
+    <div class="supermercado">Supermercado seleccionado: Jumbo</div>
+
+    <div class="item">
+      <img src="https://via.placeholder.com/40" alt="Tomate">
+      <div class="item-name">Tomates (1 kg)</div>
+      <div class="item-amount">$1.290</div>
+    </div>
+
+    <div class="item">
+      <img src="https://via.placeholder.com/40" alt="Queso">
+      <div class="item-name">Queso Laminado (200 g)</div>
+      <div class="item-amount">$2.390</div>
+    </div>
+
+    <div class="item">
+      <img src="https://via.placeholder.com/40" alt="Leche">
+      <div class="item-name">Leche Descremada (1 L)</div>
+      <div class="item-amount">$990</div>
+    </div>
+
+    <div class="total">Total: $4.670</div>
+  </div>
+
+</body>
+</html>

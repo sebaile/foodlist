@@ -1,0 +1,62 @@
+<h2>Tus Recetas</h2>
+<ul>
+  <li><strong>Ensalada César</strong> – lechuga, pollo, parmesano, aderezo</li>
+  <li><strong>Arroz con Verduras</strong> – arroz, zanahoria, arvejas</li>
+  <li><strong>Pasta al Pesto</strong> – fideos, albahaca, nueces</li>
+</ul>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodList - Tus Recetas</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #fff; }
+    header { background: #003366; color: white; padding: 15px 20px; font-size: 18px; font-weight: bold; }
+    .container { padding: 20px; }
+    .receta { border: 1px solid #ccc; border-radius: 8px; margin-bottom: 15px; overflow: hidden; display: flex; }
+    .receta img { width: 120px; height: 100%; object-fit: cover; }
+    .contenido { padding: 10px; flex: 1; }
+    .titulo { font-size: 16px; font-weight: bold; color: #333; }
+    .detalle { font-size: 13px; color: #666; margin-top: 5px; }
+    .boton { margin-top: 10px; padding: 6px 12px; background: #bc836a; color: white; border: none; border-radius: 5px; cursor: pointer; }
+  </style>
+</head>
+<body>
+
+  <header>Tus Recetas</header>
+
+  <div class="container">
+
+    <div class="receta">
+      <img src="https://via.placeholder.com/120" alt="Receta 1">
+      <div class="contenido">
+        <div class="titulo">Ensalada César</div>
+        <div class="detalle">Lechuga, pollo, crutones, queso parmesano y aderezo césar.</div>
+        <button class="boton">Ver Detalles</button>
+      </div>
+    </div>
+
+    <div class="receta">
+      <img src="https://via.placeholder.com/120" alt="Receta 2">
+      <div class="contenido">
+        <div class="titulo">Arroz con Verduras</div>
+        <div class="detalle">Arroz, zanahoria, arvejas, choclo y pimentón salteados.</div>
+        <button class="boton">Ver Detalles</button>
+      </div>
+    </div>
+
+    <div class="receta">
+      <img src="https://via.placeholder.com/120" alt="Receta 3">
+      <div class="contenido">
+        <div class="titulo">Pasta al Pesto</div>
+        <div class="detalle">Fideos, albahaca, ajo, nueces y aceite de oliva.</div>
+        <button class="boton">Ver Detalles</button>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

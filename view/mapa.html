@@ -1,0 +1,50 @@
+<h2>Mapa de Supermercados</h2>
+<iframe
+  style="width:100%;height:300px;border:1px solid #ccc;"
+  src="https://www.google.com/maps/embed/v1/place?q=supermercado+cercano+santiago&key=YOUR_API_KEY"
+  allowfullscreen
+  loading="lazy">
+</iframe>
+<p>Encuentra supermercados cerca de tu ubicación.</p>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodList - Mapa de Supermercados</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #fff; }
+    header { background: #003366; color: white; padding: 15px 20px; font-size: 18px; font-weight: bold; }
+    .container { padding: 20px; }
+    .map-frame { width: 100%; height: 400px; border: 2px solid #ccc; border-radius: 8px; }
+    .buscar { margin-top: 15px; display: flex; gap: 10px; }
+    .buscar input { flex: 1; padding: 8px; border: 1px solid #ccc; border-radius: 5px; }
+    .buscar button { padding: 8px 12px; background: #bc836a; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    .info { font-size: 14px; color: #555; margin-top: 10px; }
+  </style>
+</head>
+<body>
+
+  <header>Mapa de Supermercados</header>
+
+  <div class="container">
+    <div class="buscar">
+      <input type="text" placeholder="Buscar dirección o supermercado...">
+      <button>Buscar</button>
+    </div>
+
+    <iframe
+      class="map-frame"
+      src="https://www.google.com/maps/embed/v1/place?q=supermercado%20cercano%20santiago&key=YOUR_API_KEY"
+      allowfullscreen
+      loading="lazy">
+    </iframe>
+
+    <div class="info">
+      Usa el buscador para encontrar supermercados cerca de tu ubicación. Puedes marcar tus locales favoritos para acceso rápido.
+    </div>
+  </div>
+
+</body>
+</html>
